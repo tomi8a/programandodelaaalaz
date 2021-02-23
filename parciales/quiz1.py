@@ -8,6 +8,7 @@ mensaje_muy_alto = "estan demasiado altos los niveles"
 mensaje_tri = "de trigliceridos"
 mensaje_homo = "de homocisteina"
 ######codificacion######
+print(mnesaje_bienvenida)
 triglicerridos = int(input(mnesaje_trigliceridos))
 homocisteina = int(input(mensaje_homocisteina))
 isoptimotri = triglicerridos<150

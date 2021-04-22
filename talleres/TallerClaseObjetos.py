@@ -42,3 +42,30 @@ class Nutricionista ():
 
 nutricionista1 = Nutricionista(18, 'camilo', 'ces')
 nutricionista1.calcularimc(75, 180)
+
+#####punto 4######
+class Canguro ():
+    def __init__(self,nombrenetrada,edadentrada,identrada):
+        self.nombre = nombrenetrada
+        self.edad = edadentrada
+        self.id = identrada
+    def saltos(self,saltosentrada):
+        for i in range(saltosentrada):
+            print(f'mi nombre es {self.nombre} y he saltado {i+1} saltos')
+
+canguro1 
+
+
+
+##### punto 5######
+class Guitarra ():
+    def __init__(self,tiempoentradas,tipoentrada,colorentrada):
+        self.tiempo = tiempoentradas
+        self.tipo = tipoentrada
+        self.color = colorentrada
+    def cancion (self,cancionentrada):
+        self.cancion = cancionentrada
+        print(f'esta es la cancion{self.cancion}')
+
+guitarra1 = Guitarra(6, acustica, negra)
+guitarra1.cancion(toast)
